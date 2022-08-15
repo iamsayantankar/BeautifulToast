@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+    <style name="DemoButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#646f7c</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="toaststyle_success">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/bg_txt_1</item>   <!--TODO: text color -->
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#388E3C</item>  <!--TODO: background -->
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#FBC02D</item>  <!--TODO: background shadow -->
+        <item name="stIconStart">@drawable/ic_baseline_check_24</item>   <!--TODO: icon -->
+        <item name="stLength">LONG</item>
+    </style>
+
+    <style name="toaststyle_error">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/bg_txt_1</item>   <!--TODO: text color -->
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#FF0000</item>  <!--TODO: background -->
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#FBC02D</item>  <!--TODO: background shadow -->
+        <item name="stIconStart">@drawable/ic_baseline_clear_24</item>   <!--TODO: icon -->
+        <item name="stLength">LONG</item>
+    </style>
+
+
+    <style name="toaststyle_info">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/bg_txt_1</item>   <!--TODO: text color -->
+        <item name="stTextSize">20sp</item>
+        <item name="stColorBackground">#0000FF</item>  <!--TODO: background -->
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#FBC02D</item>  <!--TODO: background shadow -->
+        <item name="stIconStart">@drawable/ic_baseline_info_24</item>   <!--TODO: icon -->
+        <item name="stLength">LONG</item>
+    </style>
+
+</resources>
