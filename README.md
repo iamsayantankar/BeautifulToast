@@ -27,7 +27,7 @@ Customise Beautiful Toast
 2) Pass your style in the static constructor and call `show();`
 
 ```java
-            BeautifulToast.makeText(MainActivity.this,"Hello The Bengal Studio, Sayantan Kar here", Toast.LENGTH_LONG,R.style.toaststyle_error).show();
+    BeautifulToast.makeText(MainActivity.this,"Hello The Bengal Studio, Sayantan Kar here", Toast.LENGTH_LONG,R.style.toaststyle_error).show();
 ```
 
 ## Example with builder pattern
