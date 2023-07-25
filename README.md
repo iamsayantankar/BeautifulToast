@@ -45,14 +45,14 @@ Customise Beautiful Toast
 Add it in your root `build.gradle` at the end of repositories:   
 ```groovy
 dependencies {
-    implementation 'com.github.karsayantan:BeautifulToast:1.0.0'
+    implementation 'com.github.iamsayantankar:BeautifulToast:1.0.0'
 }
 ```
 
 Add the dependency in your `build.gradle`
 ```groovy
 dependencies {
-    implementation 'com.github.karsayantan:BeautifulToast:1.0.0'
+    implementation 'com.github.iamsayantankar:BeautifulToast:1.0.0'
 }
 ```
 
